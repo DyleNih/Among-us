@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(29, 27, 27);
+    overflow: hidden;
+}
+h1{
+    font-family: "Bytesized" sans-serif;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 7em;
+    font-weight: bold;
+    color: white;
+}
+.amongus-red{
+    margin-left: 380px;
+}
+.amongus-yellow{
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.amongus-green{
+    margin-left: 1000px;
+    margin-top: 100px;
+}
+.badan {
+    position: relative;
+    top: 250px;
+    left: 250px;
+    background-color: red;
+    width: 130px;
+    height: 190px;
+    border-top: 5px solid;
+    border-left: 5px solid ;
+    border-right: 5px solid;
+    border-radius: 60px;
+}
+.kaki-kanan{
+    display: inline-block;
+    position: relative;
+    top: 210px;
+    left: 263px;
+    background-color: red;
+    width: 35px;
+    height: 65px;
+    border-bottom: 5px solid;
+    border-left: 5px solid ;
+    border-right: 5px solid;
+    border-radius: 60px;
+    z-index: -1;
+}
+.kaki-kiri{
+    position: relative;
+    display: inline-block;
+    top: 210px;
+    left: 283px;
+    background-color: red;
+    width: 35px;
+    height: 65px;
+    border-bottom: 5px solid;
+    border-left: 5px solid ;
+    border-right: 5px solid;
+    border-radius: 60px;
+    z-index: -1;
+}
+.tas{
+    position: relative;
+    top: 20px;
+    left: 220px;
+    background-color: red;
+    width: 30px;
+    height: 120px;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-radius: 40px;
+    z-index: -1;
+}
+.kepala {
+    position: relative;
+    top: -100px;
+    left: 290px;
+    background-color: rgb(156, 147, 147);
+    width: 100px;
+    height: 40px;
+    border: 3px solid ;
+    border-radius: 50px;
+}
+
+.badan-yellow{
+    position: relative;
+    top: -300px;
+    left: 300px;
+    background-color: yellow;
+    width: 130px;
+    height: 190px;
+    border-top: 5px solid black ;
+    border-left: 5px solid black ;
+    border-right: 5px solid black ;
+    border-radius: 60px;
+}
+.kiri-yellow{
+    position: relative;
+    top: -340px;
+    left: 310px;
+    background-color: yellow;
+    width: 35px;
+    height: 65px;
+    border-bottom: 5px solid black ;
+    border-right: 5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 60px;
+    z-index: -1;
+}
+.kanan-yellow{
+    position: relative;
+    top: -410px;
+    left: 385px;
+    background-color: yellow;
+    width: 35px;
+    height: 65px;
+    border-bottom: 5px solid black ;
+    border-right: 5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 60px;
+    z-index: -1;
+}
+.yellow-tas{
+    position: relative;
+    top: -600px;
+    left: 273px;
+    background-color: yellow;
+    width: 30px;
+    height: 120px;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-radius: 40px;
+    z-index: -1;
+}
+.kepala-yellow{
+    position: relative;
+    top: -720px;
+    left: 342px;
+    background-color: rgb(156, 147, 147);
+    width: 100px;
+    height: 40px;
+    border: 3px solid ;
+    border-radius: 50px;
+}
+.badan-green{
+    position: relative;
+    top: -900px;
+    left: 30px;
+    background-color: rgb(25, 211, 8);
+    width: 130px;
+    height: 190px;
+    border-top: 5px solid black ;
+    border-left: 5px solid black ;
+    border-right: 5px solid black ;
+    border-radius: 60px;
+}
+.kanan-green{
+    background-color: rgb(25, 211, 8);
+    position: relative;
+    top: -1010px;
+    left: 40px;
+    width: 35px;
+    height: 65px;
+    border-bottom: 5px solid black ;
+    border-right: 5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 60px;
+    z-index: -1;
+}
+.kiri-green{
+    background-color: rgb(25, 211, 8);
+    position: relative;
+    top: -940px;
+    left: 115px;
+    width: 35px;
+    height: 65px;
+    border-bottom: 5px solid black ;
+    border-right: 5px solid black ;
+    border-left: 5px solid black;
+    border-radius: 60px;
+    z-index: -1;
+}
+.tas-green{
+    background-color: rgb(25, 211, 8);
+    position: relative;
+    top: -1200px;
+    left: 160px;
+    width: 30px;
+    height: 120px;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-radius: 40px;
+    z-index: -1;
+}
+.kepala-green{
+    background-color: rgb(156, 147, 147);
+    position: relative;
+    top: -1320px;
+    left: 23px;
+    width: 100px;
+    height: 40px;
+    border: 3px solid ;
+    border-radius: 50px;
+}
